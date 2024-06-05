@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+    <style>
+        img{
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contenido Embebido</h1>
+
+    <picture>
+        <source srcset="/contenido_embebido/assets/1.webp, /contenido_embebido/assets/1.jpg" media="(max-width: 1200px)(min-width: 200px)">
+        <img src="/contenido_embebido/assets/1.jpg" alt="fire">
+    </picture>
+    <h2>fotografias</h2>
+    <picture srcset="/contenido_embebido/assets/2.webp, /contenido_embebido/assets/2.jpg" media="(max-width: 1200px) (min-width: 200px)">
+        <img src="/contenido_embebido/assets/2.jpg" alt="fire2">
+    </picture>
+    
+</body>
+</html>

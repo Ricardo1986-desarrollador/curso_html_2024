@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/atributo.css">
+    <title>Atributos</title>
+
+
+</head>
+<!-- Atributos globales.
+
+Algunos atributos globales que estan disponibles para la mayoria de etiquetas en HTML
+
+class: Este atributo se utiliza para dar estilos atraves de CSS.
+
+id: Es un identificador unico que se utiliza para seleccionar el elemento desde java script para hacer navegacion atraves de anclas.
+
+title: Es un atributo que ayuda a la accesibilidad mostrando una descripcion del elemento al que pertenece aparece el mensaje en tooltip.
+
+data: Es un atributo que nos permite guardar en algun valor en la etiqueta HTML.-->
+<body>
+    <header>
+        <a href="enlaces/contacto.html">Contacto</a><br>
+        <a href="enlaces/index.html">Inicio</a><br>
+        <a href="https://google.com">Ir a Google</a><br>
+        <a href="/articles_y_sections.html">articles y sections</a><br>
+        <a href="/atributos.html">Atributos</a><br>
+        <a href="/ejemplo1.html">Ejemplo-1</a><br>
+        <a href="/ejemplo2.html">Ejemplo-2</a><br>
+        <a href="/ejercicio-4.html">Ejercicio-4</a><br>
+        <a href="/ejercicio-article-section.html">Ejercicio-article-section</a><br>
+        <a href="/ejercicio_lunes.html">Ejercicio-lunes</a><br>
+        <a href="/elemento_de_bloque.html">Elemento de Bloque</a><br>
+        <a href="/elemento-de-linea.html">Elemento de Linea</a><br>
+        <a href="/index.html">Inicio Curso HTML</a><br>
+        <a href="/pract.html">Practica</a><br>
+        <a href="/practica.html">Practica html</a><br>
+        <a href="/practica2.html">Practica-2</a><br>
+        <a href="/seccion-de-contenido.html">Seccion de contenido</a><br>
+        <a href="/titulos_y_parrafos.html">Titulos y parrafos</a><br>
+    </header>
+    <p class="parrafo-1">clases</p>
+    <p class="parrafo-2">clases 2</p>
+    <p id="parrafo">Identificador atraves de un ID</p>
+    <p title="yo estube enamorado siempre de la persona que jamas conoci">Titulo con tooltip</p>
+    <p  id= "parrafo-3" data-ejemplo="Datos del ejemplo">Datos pasados en la etiqueta</p>
+
+    <script>
+        const p = document.getElementById('parrafo')
+        const parrafo3 = document.getElementById('parrafo-3')
+
+        console.log(p.textContent)
+        console.log(parrafo3.textContent)
+
+    </script>
+</body>
+</html>

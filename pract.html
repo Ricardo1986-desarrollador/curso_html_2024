@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+    <style>
+        .violeta{
+            color:blueviolet
+        }
+        .rojo{
+            color:red
+        }
+        .azul{
+            color:blue
+        }
+        .amarillo{
+            color:yellow
+        }
+        .verde{
+            color:green
+        }
+        .primero{
+            color:brown
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="violeta">Practiquemos con todo lo que hemos aprendido</h1>
+        <a href="enlaces/contacto.html">Contacto</a><br>
+        <a href="enlaces/index.html">Inicio</a><br>
+        <a href="https://google.com">Ir a Google</a><br>
+        <a href="/articles_y_sections.html">articles y sections</a><br>
+        <a href="/atributos.html">Atributos</a><br>
+        <a href="/ejemplo1.html">Ejemplo-1</a><br>
+        <a href="/ejemplo2.html">Ejemplo-2</a><br>
+        <a href="/ejercicio-4.html">Ejercicio-4</a><br>
+        <a href="/ejercicio-article-section.html">Ejercicio-article-section</a><br>
+        <a href="/ejercicio_lunes.html">Ejercicio-lunes</a><br>
+        <a href="/elemento_de_bloque.html">Elemento de Bloque</a><br>
+        <a href="/elemento-de-linea.html">Elemento de Linea</a><br>
+        <a href="/index.html">Inicio Curso HTML</a><br>
+        <a href="/pract.html">Practica</a><br>
+        <a href="/practica.html">Practica html</a><br>
+        <a href="/practica2.html">Practica-2</a><br>
+        <a href="/seccion-de-contenido.html">Seccion de contenido</a><br>
+        <a href="/titulos_y_parrafos.html">Titulos y parrafos</a><br>
+    </header>
+    <main>
+        <article>
+            <h2 class="rojo">Comida que venden los Withexicans</h2>
+            <section>
+                <h3 class="verde"><em>comida de oaxaca</em></h3>
+                <p class="primero">la <strong>Comida tradicional</strong> de un estado determinado, es a nmuestra manera de ver una pretencion a un <small>platillo popular y menospreciado</small> platillo popular, todos hemos sentido <i>no estoy seguro como me cambia esta situacion, nos dio todo esto</i> este respeto a la identidad, y hemos querido pertenecer a este tipo de pretenciones mexicanas <br> pero no solo este fenomeno pasa aqui en este pais, pasa en todos los demas paises, <wbr>esto es una falta de identidad, hemos sido ignorantes y <b>nunca me veras caer </b>hemos sido <u>el nombre de la cale tendria que ser </u>bastyante egoistas</p>
+            </section>
+            <section>
+                <h3 class="azul"><em>Comida de Yucatan</em></h3>
+                <p id="primer identificador">la <strong>Comida tradicional</strong> de un estado determinado como el que esta en la peninsula de yucatan, para que <small>platillo tradicional</small>demonios quieren una escalera en el baño <br> aveces no podemos <wbr>escapar de nuestra propia locura, hay que escribir mil palabras diario asi como los atletas caminan horas y horas y miles de pasos, <wbr>dan hacia su meta <i>me gustaria mucho saber que es lo que te inquieta todas las nocehs, podria todos los dias <u>legitimamente humillante</u>compruebo que es lo que peude cambiarme<b></b>cuidar tu sueño?</i>diaria</p>
+            </section>
+            <section>
+                <h3 class="amarillo"><em>Comida de la CDMX</em></h3>
+                <p id="segundo identificador">Lorem <strong>Comida tradicional de la CDMX</strong>ipsum dolor sit amet consectetur adipisicing elit. <small>todas las cocinas del mundo</small>Itaque cum reiciendis <br>aliquid expedita dignissimos quam? <wbr>Consectetur libero inventore sunt distinctio maiores mollitiab <b>moya moya moya moya moya</b> natus blanditiis similique? <i>dime que queires que te diga amor</i>Iure numquam <u>maldita escuela primaria como la odie toda mi vida</u>sed earum ipsum!</p>
+                <p>anel queire levantarse temprano para poner su lavadora <time datetime="04:22">a las 4 de la mañana</time></p>
+            </section>
+        </article>
+    </main>
+    <script>
+        const p=document.getElementById('primer identificador')
+        const a=document.getElementById('segundo identificador')
+
+        console.log(p.textContent)
+        console.log(a.textContent)
+    </script>
+</body>
+</html>

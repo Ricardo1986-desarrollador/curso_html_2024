@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: orangered);
+}
+.box1{
+    background-color: orangered;
+    height: 99vh;
+    width: 99vw;
+    text-align: center;
+}
+.header{
+    text-align: left;
+    height: 97vh;
+    width: 98vw;
+    background-color: rgb(246, 223, 186);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.text1{
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-top:100px;
+    padding-bottom:30px;
+}
+.text2{
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-bottom:30px;
+}
+.text3{
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-bottom:30px;
+}
+.text4{
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-bottom:30px;
+}
+.text5{
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-bottom:30px;
+}
+.text6{
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-bottom:30px;
+}
+.text7{
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-bottom:30px;
+}
+.text8{
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-bottom:30px;
+}
+.text9{
+    position: relative;
+    left: 900px;
+    bottom:770px;
+    width: 200px;
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-bottom:30px;
+    text-align: center;
+}
+.text10{
+    position: relative;
+    left: 900px;
+    bottom:770px;
+    width: 200px;
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-right: 550px;
+    padding-bottom:30px;
+    text-align: center;
+}
+.box2{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 99vh;
+    width: 99vw;
+}
+.head1{
+    font-size:3rem ;
+    text-align: center;
+}
+.caja1{
+    font-size:3rem ;
+    position: absolute;
+    top:0px;
+}
+.caja2{
+    font-size:6rem ;
+    position: absolute;
+    top: 0px;
+    left: 1500px;
+}
+.caja3{
+    font-size:3rem ;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+.caja4{
+    font-size:3rem ;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
+.box3{
+    position: absolute;
+    left: 340px;
+    top:700px
+}
+.box4{
+    position: absolute;
+    left: 840px;
+    top:450px
+}
+.box5{
+    position: absolute;
+    left: 790px;
+    bottom:30px
+}
+.img1{
+    position: absolute;
+    left:900px;
+    top:80px;
+}
+.img2{
+    position: absolute;
+    left:300px;
+    top:110px;
+}
+.img3{
+    position: absolute;
+    left:700px;
+    top:580px;
+}

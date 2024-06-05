@@ -1,0 +1,102 @@
+/* Definición y uso
+El .classselector selecciona elementos con un atributo de clase específico.
+
+Para seleccionar elementos con una clase específica, escriba un carácter de punto (.), seguido del nombre de la clase.
+
+También puede especificar que una clase solo deba afectar a elementos HTML específicos. Para hacer esto, comience con el nombre del elemento, luego escriba el carácter de punto (.), seguido del nombre de la clase (consulte el Ejemplo 1 a continuación).
+
+Los elementos HTML también pueden hacer referencia a más de una clase (consulte el Ejemplo 2 a continuación).  */
+body{
+    background-color: rgb(128, 128, 128);
+}
+.head{
+    background-color: rgb(255, 125, 148);
+    color:rgb(255, 255, 0);
+}
+.header{
+    background-color: rgb(25, 35, 45);
+    color: rgb(255, 255, 255);
+}
+.bod{
+    background-color: rgb(35, 45, 55);
+    color: rgb(200, 200, 200);
+}
+.header2{
+    color: rgb(255, 0, 0);
+}
+.text{
+    color: rgb(250, 5, 5);
+}
+.text1{
+    color: rgb(245, 50, 50);
+}
+.text2{
+    color: rgb(230, 80, 80);
+}
+.text3{
+    color: rgb(210, 100, 100);
+}
+.l1{
+    color: rgb(190, 120, 120);
+}
+.l2{
+    color: rgb(170, 140, 140);
+}
+.l3{
+    color: rgb(150, 160, 160);
+}
+.l4{
+    color: rgb(130, 180, 180);
+}
+.l5{
+    color: rgb(120, 200, 200);
+}
+.l6{
+    color: rgb(100, 220, 220);
+}
+.pie{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: auto;
+    height: 50px;
+}
+.sp1{
+    color: rgb(80, 240, 240);
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    left:100px;
+}
+.sp2{
+    color: rgb(255, 0, 0);
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    left: 300px;
+}
+.sp3{
+    color: rgb(255, 0, 0);
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    left: 500px;
+}
+.sp4{
+    color: rgb(255, 0, 0);
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    left: 700px;
+}
+.sp5{
+    color: rgb(255, 0, 0);
+    display: block;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    left: 900px;
+}

@@ -1,0 +1,20 @@
+p{
+    background-color: aqua;
+}
+
+.container > p{
+    background-color: red;
+}
+.container2 > p{
+    background-color: red;
+}
+.container3 > p{
+    background-color: black;
+    color: white;
+}
+.container4 > p{
+    background-color: coral;
+}
+.title4{
+    background-color: darkgoldenrod;
+}

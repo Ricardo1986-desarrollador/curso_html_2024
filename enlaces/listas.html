@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <!-- Listas
+    Las listas en html sirven para listar contenido en funcion del tipo de contenido de nuestra lista tenemos tres tipos de listas
+    <ul></ul> Un ordered list: Se utilizan cuando el orden de los elementos no influye (lista de compra)
+    <ol></ol> Order list: Se utilizan cuando el orden de los elementos es importante (top 10)
+    <li></li> List Item: Cada elemento de la lista se representa con la etiqueta li, tanto como las ul como las ol.
+    <dl></dl> Definition list: Se utilizan para hacer una lista de definiciones (diccionario)
+    Lista de definición: Cada elemento de una lista de definicion lleva 2 etiquetas:
+    <dt></dt> -> Definition Term: Es el termino que vamos a definir.
+    <dd></dd> -> Definition Description: Es la descripcion del termino.
+    Atributos en las listas
+    <ol></ol> ->
+    type: estilo de numeracion (1, A, a, I, i)
+    start: Inicio de la secuencia (un numero donde quieres que comience por ejemplo 3 o 4 desde ese numero empezaria la lista)
+
+    <ul></ul> ->
+    type: estilo de los items (disc, scuare, circle)
+    -->
+</head>
+<body>
+    <header>
+        <h1>Ejemplo de las listas en la vida real</h1>
+        <nav>
+            <ul>
+            <li><a href=#imagen1>imagen 1</a></li>
+            <li><a href="#imagen2">imagen 2</a></li>
+            <li><a href="#imagen3">imagen 3</a></li>
+            <li><a href="#imagen4">imagen 4</a></li>
+            <li><a href="#imagen5">imagen 5</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>listas</h2>
+        <ul>
+            <li>leche</li>
+            <li>galletas</li>
+            <li>taamrindo</li>
+            <li>jamaica</li>
+            <li>agua    </li>
+        </ul>
+        <h2>aprendizaje de dearrollo web</h2>
+        <ol>
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ol>
+        <section>
+            <h3 id="imagen1">listas ordenadas</h3>
+            <article>
+                <h4>vamos a probar otra lista</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quidem sit consequatur rerum exercitationem! Quia nihil consequuntur, accusantium qui neque maiores nisi debitis, nobis voluptas commodi assumenda magni, adipisci eius.</p>
+            </article>
+            <h3 id="imagen2">listas desordenadas</h3>
+            <article>
+                <h4>vamos a probar otra lista desordenada</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, odit laboriosam dolores eligendi tenetur porro saepe nostrum reiciendis explicabo libero, eos quaerat rerum! Voluptas vero laborum ut quo aliquid quod.</p>
+            </article>
+            <article>
+                <h3 id="imagen3">esto es solo un ejercicio</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quos dignissimos fugiat doloremque nam consequatur adipisci corrupti? Error debitis dicta quia nulla possimus recusandae sint deleniti neque, mollitia minima itaque.</p>
+            </article>
+            <article>
+                <h3 id="imagen4">otro ejercicio</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, veniam exercitationem asperiores corporis ipsa, aut fugit mollitia neque rem totam suscipit optio at quibusdam laboriosam iure cupiditate sapiente perferendis similique.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi exercitationem similique quidem laboriosam aperiam, facilis voluptatem est non iusto eius modi ipsam voluptatum tempore numquam maiores magni incidunt placeat perferendis.</p>
+            </article>
+            <article>
+                <h3 id="imagen5">otro mas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit esse, cumque, voluptate assumenda autem error, quia porro alias minima aut nulla tempora libero eos? Sequi quia eius commodi fuga veniam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae repellendus aspernatur nihil ea, consequuntur voluptatum ad mollitia asperiores illum amet eum ducimus natus voluptas dolorem totam sit! Suscipit, dolorum?</p>
+            </article>
+        </section>
+        <h2>Listas de definicion</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language: Es un lenguaje de marcado que se usa para estructurar datos de una pagina web</dd>
+
+            <dt>CSS</dt>
+            <dd>Cascade Style Sheet: Es un lenguaje de diseño que se utiliza para dar estilo al HTML</dd>
+
+            <dt>Java script</dt>
+            <dd>Es un lenguaje de programacion para dar interactividad a un sitio web</dd>
+        </dl>
+        <h2>atributos en las listas ordenadas y anidamiento de las listas</h2>
+        <ol type="1">
+            <li>sailor moon</li>
+            <li>sailor mecury</li>
+            <li>sailor mars</li>
+            <ol type="A">
+                <li>sailor jupiter</li>
+                <li>sailor saturn</li>
+                <li>sailor uranus</li>
+                <ol type="a">
+                    <li>sailor neptune</li>
+                    <li>sailor pluto</li>
+                    <li>sailor comet</li>
+                    <ol type="I">
+                        <li>sailor moon</li>
+                        <li>sailor mercury</li>
+                        <li>sailor mars</li>
+                        <ol type="i">
+                            <li>sailor jupiter</li>
+                            <li>sailor saturn</li>
+                            <li>sailor uranus</li>  
+                        </ol>
+                    </ol>
+                </ol>
+            </ol>
+        </ol>
+        <ol start="5">
+            <li>la luna</li>
+            <li>la tierra</li>
+            <li>marte</li>
+            <li>venus</li>
+        </ol>
+        <ol start="9">
+            <li>rubia</li>
+            <li>morena</li>
+            <li>prieta</li>
+            <li>asiatica</li>
+        </ol>
+        <ul type="square">
+            <li>moon</li>
+            <li>earth</li>
+            <li>venus</li>
+            <li>mercury</li>
+            <li>jupiter</li>
+        </ul>
+        <ul type="circle">
+            <li>moon</li>
+            <li>earth</li>
+            <li>venus</li>
+            <li>mercury</li>
+            <li>jupiter</li>
+        </ul>
+    
+    </main>
+    
+</body>
+</html>

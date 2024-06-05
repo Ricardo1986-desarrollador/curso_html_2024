@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <!-- Las tablas en HTML sirven para mostrar contenido tabulado
+    La estructura básica de una tabla se compone por:
+
+    <table></table> -> Etiqueta que encierra una tabla.
+    <tr></tr> -> table row: Etiqueta que construye una fila.
+    <td></td> -> table data: Etiqueta que construye una celda.
+
+    Truco: El numero de celdas dentro de un td establecera el numero de columnas de la tabla.
+    Las cabeceras de las tablas se establecen con la etiqueta <thead></thead>
+    
+    Dentro tenemos una etiqueta <tr></tr> normal pero en el caso de las celdas, las estableceremos con la etiqueta <th></th> en lugar de <td></td>
+
+    El contenido de la tabla debe ir dentro de una etiqueta <tbody></tbody> para representar el cuerpo de una tabla
+
+    De forma opcional podemos colocar un <tfoot></tfoot> a la tabla para establecer un pie de tabla, este es algo que en algunas tablas tienen como suma de cantidades o de totales
+
+    ATRIBUTOS DE LAS TABLAS
+
+    Para hacer que las celdas ocupen mas de una fila o mas de una columna tenemos 2 atributos 
+    ROWSPAN: Sirve para que una celda ocupa mas de una fila el valor por defecto es 1
+
+    COLSPAN:Sirve para que una celda ocupe mas de una columna, el valor por defecto es 1.
+
+    SELECCIONADR COLUMNAS:
+
+    Cuando necesitamos seleccioanr una columna tenemos la etiqueta <colgroup></colgroup> que nos permite seleccionar una columna en concreto. dentro pondremos tantas etiquetas <col></col> como columnas tengamos, cada etiqueta <col></col> equivaldra a una columna siguiendo el mismo orden que tiene la tabla
+
+    Sinecesitamos que una etiqueta <col></col> agrupe mas de una columna, tenemos el atributo span, que funciona igual que colspan, y rowspan-->
+
+    <style>
+        table {
+            font-family: sans-serif;
+            border: 2px solid grey;
+            border-collapse:collapse;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;    
+        }
+
+        caption {
+            font-size: 2rem;
+            font-weight: bold;  
+            margin-bottom: 1rem;
+        }
+        th,
+        td{
+            border: 2px solid grey;
+            padding: .5rem;
+        }
+        tr:nth-child(4) td:nth-child(2){
+            background-color: lightgreen;
+            letter-spacing: 90px;
+            padding-left: 50px;
+            text-transform: uppercase;
+        }
+        td:first-child,
+        th,
+        tfoot {
+            background-color: lightgreen;   
+        }
+    </style>
+</head>
+<body>
+        <table>
+            <caption>HORARIO DE CLASES</caption>
+            <thead>
+                <tbody>
+                <tr>
+                    <th></th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tr>
+            <td>8:30-9:30</td>
+            <td>Matematicas</td>
+            <td>Matematicas</td>
+            <td>Sociales</td>
+            <td>Matematicas</td>
+            <td>Matematicas</td>
+        </tr>
+        <tr>
+            <td>9:30-10-25</td>
+            <td>Lengua</td>
+            <td>lengua</td>
+            <td>Matematicas</td>
+            <td>Ciencias</td>
+            <td>Lengua</td>
+        </tr>
+        <tr>
+            <td>10:25-11:20</td>
+            <td>Educacion fisica</td>
+            <td>Ciencias</td>
+            <td>Lengua</td>
+            <td>Lengua</td>
+            <td>Educacion fisica</td>
+        </tr>
+        <tr>
+            <td>11:20-11:45</td>
+            <td colspan="5">RECREO</td>
+        </tr>
+        <tr>
+            <td>11:45-12-20</td>
+            <td>Ingles</td>
+            <td>Sociales</td>
+            <td>Ingles</td>
+            <td>Tutoria</td>
+            <td>Ingles</td  >
+        </tr>
+        <tr>
+            <td>12:40-13:35</td>
+            <td>Musica</td>
+            <td>Educacion fisica</td>
+            <td>Pastica</td>
+            <td>Religion</td>
+            <td>Musica</td>
+        </tr>
+        <tr>
+            <td>13:35-14:40</td>
+            <td>Tecnologia</td>
+            <td>Frances</td>
+            <td>Tecnologia</td>
+            <td>Frances</td>
+            <td>Tecnologia</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5">Total de asignaturas</td>
+            <td>12  </td>
+        </tr>
+    </tfoot>
+        </table>
+        <table>
+            <caption>HORARIO DE CLASES 2</caption>
+            <thead>
+                <tbody>
+                <tr>
+                    <th></th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tr>
+            <td>8:30-9:30</td>
+            <td>Matematicas</td>
+            <td>Matematicas</td>
+            <td>Sociales</td>
+            <td>Matematicas</td>
+            <td>Matematicas</td>
+        </tr>
+        <tr>
+            <td>9:30-10-25</td>
+            <td>Lengua</td>
+            <td>lengua</td>
+            <td>Matematicas</td>
+            <td>Ciencias</td>
+            <td>Lengua</td>
+        </tr>
+        <tr>
+            <td>10:25-11:20</td>
+            <td>Educacion fisica</td>
+            <td>Ciencias</td>
+            <td>Lengua</td>
+            <td>Lengua</td>
+            <td>Educacion fisica</td>
+        </tr>
+        <tr>
+            <td>11:20-11:45</td>
+            <td colspan="5">RECREO</td>
+        </tr>
+        <tr>
+            <td>11:45-12-20</td>
+            <td>Ingles</td>
+            <td>Sociales</td>
+            <td>Ingles</td>
+            <td>Tutoria</td>
+            <td>Ingles</td  >
+        </tr>
+        <tr>
+            <td>12:40-13:35</td>
+            <td rowspan="2">Tecnologia</td>
+            <td>Educacion fisica</td>
+            <td>Pastica</td>
+            <td>Religion</td>
+            <td rowspan="2">Tenologia</td>
+        </tr>
+        <tr>
+            <td>13:35-14:40</td>
+            <td>Frances</td>
+            <td>Tecnologia</td>
+            <td>Frances</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5">Total de asignaturas</td>
+            <td>12  </td>
+        </tr>
+    </tfoot>
+        </table>
+    </table>
+    <table>
+        <caption>HORARIO DE CLASES 3</caption>
+        <thead>
+            <tbody>
+            <tr>
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tr>
+        <td>8:30-9:30</td>
+        <td>Matematicas</td>
+        <td>Matematicas</td>
+        <td>Sociales</td>
+        <td>Matematicas</td>
+        <td>Matematicas</td>
+    </tr>
+    <tr>
+        <td>9:30-10-25</td>
+        <td>Lengua</td>
+        <td>lengua</td>
+        <td>Matematicas</td>
+        <td>Ciencias</td>
+        <td>Lengua</td>
+    </tr>
+    <tr>
+        <td>10:25-11:20</td>
+        <td>Educacion fisica</td>
+        <td>Ciencias</td>
+        <td>Lengua</td>
+        <td>Lengua</td>
+        <td>Educacion fisica</td>
+    </tr>
+    <tr>
+        <td>11:20-11:45</td>
+        <td colspan="5">RECREO</td>
+    </tr>
+    <tr>
+        <td>11:45-12-20</td>
+        <td>Ingles</td>
+        <td>Sociales</td>
+        <td>Ingles</td>
+        <td>Tutoria</td>
+        <td>Ingles</td  >
+    </tr>
+    <tr>
+        <td>12:40-13:35</td>
+        <td rowspan="2">Tecnologia</td>
+        <td>Educacion fisica</td>
+        <td>Pastica</td>
+        <td>Religion</td>
+        <td rowspan="2">Tenologia</td>
+    </tr>
+    <tr>
+        <td>13:35-14:40</td>
+        <td>Frances</td>
+        <td>Tecnologia</td>
+        <td>Frances</td>
+    </tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td colspan="5">Total de asignaturas</td>
+        <td>12  </td>
+    </tr>
+</tfoot>
+    </table>
+</body>
+</html>
